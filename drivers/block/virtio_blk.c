@@ -101,7 +101,7 @@ struct virtblk_req {
 		 */
 		struct {
 			u8 status;
-			u8 reserved[3];
+			u8 reserved[7];
 			u64 append_sector;
 		} zone_append_in_hdr;
 	};
